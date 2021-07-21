@@ -32,3 +32,12 @@ For Mandriva-based systems: sudo urpmi *.rpm
 
 For other RPM-using systems (openSUSE, etc.): rpm -Uvh *.rpm
 
+#Instalação do pacote de idiomas em Português para o LibreOffice e Firefox
+
+Primeiramente deixaremos o LibreOffice em Português, para isso use o comando abaixo:
+
+$ sudo apt-get install libreoffice-l10n-pt-br
+
+$ sudo apt-get install firefox-locale-pt
+
+O l10n é a implementação de um idioma específico, nesse caso o Português do Brasil para um programa já internacionalizado. 
